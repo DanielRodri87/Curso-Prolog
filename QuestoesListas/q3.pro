@@ -1,0 +1,1 @@
+% 3. Crie uma regra que recebe uma lista e retorna outra lista somente com os pares
