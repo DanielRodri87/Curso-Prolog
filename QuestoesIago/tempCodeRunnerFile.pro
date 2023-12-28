@@ -1,0 +1,1 @@
+gentilico_sul('Curitiba', Gentilico).
