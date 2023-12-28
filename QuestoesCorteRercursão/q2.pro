@@ -1,6 +1,13 @@
 % 2. Crie uma regra recursiva com um parâmetro que é um número inteiro
 % a regra deve imprimir os valores de zero, até o número informado
 
+
+% Cometi um erro:
+
+% Meu programa retorna 4, 3, 2, 1, 0
+% Deveria ser: 0, 1, 2, 3, 4
+% Consulte q2-gabarito.pro
+
 calcular :-
     write('Informe o valor: '), nl, 
     read(X),
