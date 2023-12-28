@@ -1,0 +1,1 @@
+tamanho([d,a,n,i,e,l], T).
