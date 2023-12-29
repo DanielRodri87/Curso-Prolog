@@ -9,6 +9,3 @@ somaLista([], 0).
 somaLista([H|T], Soma) :-
     somaLista(T, S1),
     Soma is H + S1.
-
-
-

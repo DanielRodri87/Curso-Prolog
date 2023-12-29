@@ -15,6 +15,13 @@ mediaLista(Lista, Media) :-
     somaQtd(Lista, Qtd),
     Media is Soma/Qtd.
 
+media :- 
+    write('Informe a Lista'), nl, 
+    read(Lista),
+    mediaLista(Lista, Media),
+    write('Media: '), write(Media), nl.
+
+
 
 
 
