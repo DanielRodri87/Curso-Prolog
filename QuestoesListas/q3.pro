@@ -1,1 +1,14 @@
-% 3. Crie uma regra que recebe uma lista e retorna outra lista somente com os pares
+pares([], []).
+pares([H|T], S) :-
+    pares(T, T1),
+    (
+        H mod 2 =:= 0,
+        S = [H|T1];
+        
+        H mod 2 =\= 0,
+        S = T1
+    ).
+
+
+
+
