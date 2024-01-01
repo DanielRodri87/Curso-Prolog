@@ -1,0 +1,1 @@
+sao_alunos_do_professor(Aluno, X)

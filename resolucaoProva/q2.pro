@@ -12,4 +12,5 @@ calcular :-
     fatorial(N, F), 
     write('O fatorial de N é: '), write(F), nl.
 
+
     

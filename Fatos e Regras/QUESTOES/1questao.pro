@@ -26,3 +26,6 @@ associados(Aluno, X) :-
     frequenta(Aluno, X);
     funcionario(Funcionario, X).
 
+
+
+
