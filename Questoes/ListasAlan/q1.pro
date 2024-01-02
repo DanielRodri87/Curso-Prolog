@@ -12,20 +12,27 @@
 a(X, [X|L], L).
 a(X, [Y|L], [Y|L1]) :-
     a(X, L, L1).
+    % 1 - Adiciona
+
 
 b(X, L, [X|L]).
 b(X, [Y|L], [Y|L1]) :-
     b(X, L, L1).
+    % 2 - Apaga
 
 c([], 0).
 c([_|L], N) :-
     c(L, N1),
-    N is N1 + 1.
+    N is N1 + 1. 
+    % 5 - Tamanho
 
 d([], L, L).
 d([X|L1], L2, [X|L3]) :-
     d(L1, L2, L3).
+    % 4 - Concatena
+
 
 e(X, [X|_]).
 e(X, [_|L]) :-
     e(X, L).
+    % 3 - Membro
