@@ -25,3 +25,4 @@ lista_traducao([H|T], [H1|T1]) :-
 
 
 
+
