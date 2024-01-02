@@ -17,4 +17,4 @@ parente(X, Y) :- mae(X, Y).
 % Quem são os filhos de Maria?
 % Resposta esperada: pedro, julia
 
-
+?- mae(maria, X).
