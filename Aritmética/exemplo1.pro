@@ -11,3 +11,4 @@ main :-
         X =< 100,
         write('O numero e menor ou igual a 100')
     ).
+
