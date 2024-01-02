@@ -4,3 +4,5 @@ ultimo([S], S).
 ultimo([H|T], S) :-
     ultimo(T, S).
 
+
+
