@@ -16,6 +16,12 @@ traducao(nine, nove).
 % ?- lista_traducao([one, two], X).
 % X = [um, dois].
 
-traducao(vai, porfavor).
+lista_traducao([], []).
+lista_traducao([H|T], [H1|T1]) :-
+    traducao(H, H1),
+    lista_traducao(T, T1).
+
+% consegui
+
 
 
