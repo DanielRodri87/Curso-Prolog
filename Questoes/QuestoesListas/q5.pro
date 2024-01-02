@@ -3,4 +3,5 @@ contem_1([1|_]).
 contem_1([_|T]) :-
     contem_1(T).
 
-% Quase consegui
+% consegui
+
