@@ -18,3 +18,4 @@ parente(X, Y) :- mae(X, Y).
 % Resposta esperada: pedro, julia
 
 ?- mae(maria, X).
+
