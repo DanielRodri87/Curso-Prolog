@@ -1,1 +1,1 @@
-ordenar([1,2,3,4], S)
+pai(Maria, Filho), parente(Maria, Filho).
