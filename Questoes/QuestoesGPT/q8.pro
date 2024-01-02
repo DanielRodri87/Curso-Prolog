@@ -21,3 +21,5 @@ intersecao([H|T], L2, [H|R]) :-
 intersecao([_|T], L2, R) :-
     intersecao(T, L2, R).
 
+% Não consegui
+
