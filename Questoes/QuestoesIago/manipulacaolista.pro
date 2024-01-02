@@ -13,45 +13,42 @@ listaMAIOR([X], X).
 listaMAIOR([H|T], Maior) :-
     listaMAIOR(T, M1),
     (
-        H > Maior,
-        Maior is H,
+        H > M1,
+        Maior is H
     ;
-        not(H > Maior),
+        H =< M1,
         Maior is M1
-
     ).
     
+
 preencherLista(L) :-
     write('Informe a lista: '), nl,
     read(L).
 
 main :-
-    repeat,
     write('Escolha a opcao:\n1 - Preencher\n2 - Verificar Tamanho\n3 - Verificar Simetria\n-> '), nl,
     read(OP), nl, 
     (
         OP =:= 1,
         preencherLista(L),
-        fail
+        listaQTD(L, Q),
+        listaMAIOR(L, Maior),
+        main
     ;
         OP =:= 2,
-        preencherLista(L),
         listaQTD(L, Q),
         write('O tamanho da lista é: '), write(Q), nl,
-        fail
+        main
     
     ;
 
         OP =:= 3,
-        preencherLista(L),
-        listaQTD(L, Q),
-        listaMAIOR(L, Maior),
         (
             Q >= Maior,
             write('A lista e simetrica')
         ;
             not(Q >= Maior),
-            write('A lista nao e simetrica')
+            write('A lista nao e simetrica'), nl
         ),
-        fail
+        main
     ).
