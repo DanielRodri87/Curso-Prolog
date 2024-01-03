@@ -6,7 +6,6 @@ adicionar(X, [H|T1], [H|T2]) :-
 % ?- adicionar(1, [1,2,3,4], L).
 
 
-
 % Remover elemento da lista
 remover(_, [], []).
 remover(X, [X|T1], T2) :-
