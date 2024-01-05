@@ -1,0 +1,1 @@
+% Aqui terá exemplo de como ler uma lista
