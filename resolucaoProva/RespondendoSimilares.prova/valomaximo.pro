@@ -6,6 +6,9 @@ maximo([H|T], Max) :-
         Max is H
     ;
         H <= Max1,
-
         Max is T
     ).
+
+% calcula media uma lista, criar duas listas com numeros acima e baixo da media
+
+    
