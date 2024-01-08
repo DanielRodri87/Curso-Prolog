@@ -4,4 +4,3 @@ inverter([H|T], ListaInvertida) :-
     write(T),
     append(Tinvertido, [H], ListaInvertida).
 
-

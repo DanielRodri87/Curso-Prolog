@@ -1,1 +1,1 @@
-somaLista([1, 2, 3, 4], S).
+qtd([r,i,t,a], S) .

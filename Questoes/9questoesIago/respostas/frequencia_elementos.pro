@@ -8,3 +8,7 @@ frequencia([H|T], X, S) :-
         H =\= X,
         S is S1
     ).
+
+
+
+
