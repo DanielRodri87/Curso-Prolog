@@ -11,13 +11,11 @@ main :-
     read(L1), nl, 
     inverter(L1, L2), 
     (
-        L1 = L2,
-        write('A lista é um palindromo'), nl
-
+            L1 = L2,
+            write('A lista é um palindromo'), nl
         ;
-
-        not(L1 = L2),
-        write('A lista não é um palindromo'), nl
+            not(L1 = L2),
+            write('A lista não é um palindromo'), nl
     ).
 
 
