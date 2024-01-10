@@ -6,6 +6,7 @@ is_sublist([], _).
 is_sublist([H|T], [H|Rest]) :-
     is_sublist(T, Rest).
 
+
 % Caso em que a lista L1 não começa com os mesmos elementos que L2,
 % então tentamos verificar se L1 é uma sublista do restante de L2.
 is_sublist(L1, [_|Rest]) :-
