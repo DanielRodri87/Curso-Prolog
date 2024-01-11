@@ -1,0 +1,1 @@
+trocar_elemento([1,2,3,4,5], 3, 9, X).
