@@ -5,5 +5,3 @@ todos_as([]).
 todos_as([a|T]) :-
     todos_as(T).
 
-% Não consegui
-

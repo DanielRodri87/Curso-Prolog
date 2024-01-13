@@ -1,1 +1,1 @@
-buscarvalor([d,a,n,i,e,l], a).
+    % write('A nova lista eh: '), write(R), nl. 
