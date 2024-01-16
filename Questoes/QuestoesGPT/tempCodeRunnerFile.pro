@@ -1,1 +1,1 @@
-pai(Maria, Filho), parente(Maria, Filho).
+repetir(0) :- !.
