@@ -5,6 +5,7 @@ repetir(X) :-
     repetir(X1).
 
 main :-
+    
     write('Quantas vezes você quer que repita: '), nl,
     read(X), nl,
     repetir(X).

@@ -8,7 +8,7 @@ concatena([X|L1], L2, [X|L3]) :-
 inverter([], []).
 inverter([H|T], ListaInvertida) :-
     inverter(T, Tinvertido),
-    append(Tinvertido, [H], ListaInvertida).
+    concatena(Tinvertido, [H], ListaInvertida).
 
 main :-
     write('Digite uma lista: '), nl,
